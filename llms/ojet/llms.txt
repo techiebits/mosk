@@ -1,0 +1,16 @@
+# Oracle JET application since 18.1.0 
+
+> This is a recent brief documentation for modern Oracle JET application development.
+
+
+## References
+
+The followings provide helpful and concise resources to assist with creating and implementing JET application.
+
+- [MVVM Style Guide](https://filedn.com/lbsYLWsJM7Dh5cY9ya2mrWV/mosk/llms/ojet/mvvm-guide.md): guide to develop MVVM JET application in JavaScript.
+- [VDOM Style Guide](https://filedn.com/lbsYLWsJM7Dh5cY9ya2mrWV/mosk/llms/ojet/vdom-guide.md): guide to develop modern VDOM JET application in Preact/Typescript.
+
+JET core-pack UI components:
+
+- [oj-c-button.md](https://filedn.com/lbsYLWsJM7Dh5cY9ya2mrWV/mosk/llms/ojet/elements/oj-c-button.md)
+- [oj-c-dialog.md](https://filedn.com/lbsYLWsJM7Dh5cY9ya2mrWV/mosk/llms/ojet/elements/oj-c-dialog.md)

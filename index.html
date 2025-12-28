@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+        <meta charset="utf-8">
+        <title>My Open-Source Knowledge</title>
+        <!-- Core Theme -->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@^5.0.0-rc.3/dist/themes/core.min.css"/>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@^5.0.0-rc.3/dist/themes/addons/core-dark.min.css"/>
+    </head>
+    <body class="loading">
+        <div id="app">
+        </div>
+        <!-- Configuration -->
+        <script>
+            window.$docsify = {
+                name: 'MOSK-nowledge',
+                paths: 'auto',
+                loadSidebar: true,  // load from _sidebar.md
+                subMaxLevel: 4,     // add TOC
+                loadNavbar: false,  // load from _navbar.md
+                coverpage: false,   // load from _coverpage.md
+                onlyCover: false,
+                autoHeader: false,
+                auto2top: true,
+                search: {
+                    paths: 'auto',
+                    hideOtherSidebarContent: false,
+                    depth: 6
+                },
+                requestHeaders: {
+                    'cache-control': 'no-cache'
+                }
+            };
+        </script>
+        <!-- Docsify.js -->
+        <script src="//cdn.jsdelivr.net/npm/docsify@^5.0.0-rc.3"></script>
+        <!-- Plugins (optional) -->
+        <!-- <script src="//cdn.jsdelivr.net/npm/docsify@^5.0.0-rc/dist/plugins/search.min.js"></script> -->
+    </body>
+    <!-- for local testing, `python3 -m http.server` -->
+</html>
